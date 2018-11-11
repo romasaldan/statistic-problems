@@ -1,0 +1,11 @@
+.tasc {
+    width: 100%;
+    border: 1px solid gray;
+}
+#getData {
+    width: 60%;
+    background-color: cornsilk;
+}
+.right {
+    float: right;
+}

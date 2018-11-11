@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="../../style.css">
+        <link rel="stylesheet" href="style.css">
+        <script src="../../libraryMathDetails/statisticFunctions.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="../../libraryMathDetails/universal.js"></script>
+
+<!--        <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>  for graf -->
+<!--        <script src="../graf.js"></script> alternative graf-->
+<!--        <script src="../../probability/statistic/js.js"></script>-->
+    </head>
+    <body>
+        <form id="getData">
+            <div class='tasc'>
+                <input type="checkbox" name="chooseTasc" >Для матсподівання при відомій дисперсії.
+                <div class="clear"></div> Ввести рівень довіри <input type="text" value="0.95" name='confidenceLevelKD'>
+                <div class="clear"></div> Ввести середнє значення <input type="text" placeholder="enter number" name='averageKD'>
+                <div class="clear"></div> Ввести дисперсію <input type="text" placeholder="enter value" name='disp'>
+                <div class="clear"></div> Ввести кількість членів <input type='number' min='2' value="10" name='numberKD'>
+            </div>
+            <div class='tasc'>
+                <input type="checkbox" name="chooseTasc">Для матсподівання при невідомій дисперсії.
+                <div class="clear"></div> Ввести рівень довіри <input type="text" value="0.95" name='confidenceLevelUKD'>
+                <div class="clear"></div> Ввести середнє значення <input type="text" placeholder="enter number" name='averageUKD'>
+                <div class="clear"></div> Ввести вибіркову дисперсію <input type="text" placeholder="enter value" name="selectiveDispersionUKD">
+                <div class="clear"></div> Ввести кількість членів <input type='number' min='2' value="10" name="numberUKD">
+            </div>
+            <div class='tasc'>
+                <input type="checkbox" name="chooseTasc">Для дисперсії
+                <div class="clear"></div> Ввести рівень довіри <input type="text" value="0.95" name='confidenceLevelDisp'>
+                <div class="clear"></div> Ввести вибіркову дисперсію <input type="text" placeholder="enter value" name='selectiveDispersion'>
+                <div class="clear"></div> Ввести кількість членів <input type='number' min='2' value="10" name='numberDisp'>
+                <div class="clear"></div> Якщо треба середнє квадратичне відхилення, то нажміть <input type='checkbox' name="deviation"><div class="clear"></div>
+            <input type="button" value="розв'язати задачі" onclick="start()">
+            </div>         
+        </form>
+        <div id="solvers">
+        <script src="js.js"></script>
+
+        </div>
+    </body>
+</html>    

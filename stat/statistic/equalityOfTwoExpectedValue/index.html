@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="../trustIntervals/style.css">
+        <script src="../../libraryMathDetails/statisticFunctions.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="../../libraryMathDetails/universal.js"></script>
+        
+    </head>
+    <body>
+        <form id="getData">
+            <div class="tasc">
+                Ввести середнє вибірки X<input type="text" name="averageX"><div class="clear"></div>     
+                Ввести дисперсію вибірки Х <input type="text" name="deviationX"><div class="clear"></div>
+                Ввести кількість членів вибірки Х <input type="text" name="numberX"><div class="clear"></div>
+				Ввести середнє вибірки Y<input type="text" name="averageY"><div class="clear"></div>     
+                Ввести дисперсію вибірки Y <input type="text" name="deviationY"><div class="clear"></div>
+                Ввести кількість членів вибірки Y <input type="text" name="numberY"><div class="clear"></div>
+                Ввести рівень значимості <input type="number" name="confidenceLevel"><div class="clear" ></div>
+                Ввести тип альтернативної гіпотези
+                <select id="typeOfHypotheses">
+                    <option value="&lt;">&lt;</option>
+                    <option value='&gt;'>&gt;</option>
+                    <option value="&ne;">&ne;</option>
+                </select>
+                <div class="clear"></div>
+                <div class="right"><input type="button" value="опрацювати дані" onclick="start()"></div>
+            </div>
+        </form>
+        <div class="clear"></div>
+        <div id="solvers"></div>
+        <script src="js.js"></script>
+    </body>
+</html>
