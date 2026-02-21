@@ -11,4 +11,4 @@ This is a web-based tool designed to solve and visualize complex problems in **M
 ### 🎓 Historical Value:
 This repository showcases my early ability to build **end-to-end tools**: from core mathematical algorithms to the User Interface. It was a practical solution for automating tedious university coursework.
 
-*Note: This is a legacy project. The code follows ES5 standards and reflects my early learning phase in web development.*
+### *Note: This is a legacy project. The code follows ES5 standards and reflects my early learning phase in web development.*
