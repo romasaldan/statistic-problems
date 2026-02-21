@@ -1,7 +1,14 @@
-# statistic-problems
-the process of solving some statistics-problems. 
-Scripts describe process of solving for trust intervals,statistical hypothesis,Pirson's kryterium.
-All comments in process of solving are written in ukrainian.
-This is my first project for real tasks.  The program can write full solution of math math problem and I can send to my client screen of solution.
- statistic-problems- is a part of my project. Other parts are algebra,probability theory, analitic geometry. Few programs have developed for mathematical analysis, Complex analysis. I continue develope the project because I can get additioanl experience and additional profit.
-I know the project contains many mistakens and bugs. But I haven't enough of time to correct bugs.
+# Statistic Problems Solver (Academic UI Tool)
+
+### 📌 Overview
+This is a web-based tool designed to solve and visualize complex problems in **Mathematical Statistics**. It was created as a student project (2017-2018) to provide not only answers but a complete step-by-step breakdown of statistical calculations.
+
+### ⚙️ Functionality:
+* **Interactive UI:** Input fields for datasets and statistical parameters.
+* **Step-by-Step Generation:** Automates the creation of full solutions for variational series and distribution tables.
+* **Integration:** Uses a custom mathematical core (Math Library) to handle the underlying calculations.
+
+### 🎓 Historical Value:
+This repository showcases my early ability to build **end-to-end tools**: from core mathematical algorithms to the User Interface. It was a practical solution for automating tedious university coursework.
+
+*Note: This is a legacy project. The code follows ES5 standards and reflects my early learning phase in web development.*
